@@ -180,6 +180,19 @@ The API will be available at `http://127.0.0.1:8000`.
   ]
 }
 ```
+### `cast_vote`
+
+- **Endpoint:** `POST /polls/{poll_id}/vote`
+- **Headers:** `Authorization: Bearer <access_token>`
+- **Body:**
+
+```json
+{
+  "option_id": 1
+}
+```
+
+- **Description:** Allows an authenticated user to cast a vote on a specific poll option. The `poll_id` in the path specifies the target poll, and `option_id` in the request body indicates the chosen option.
 
 ### 8. Delete a poll
 
