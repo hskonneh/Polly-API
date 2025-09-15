@@ -137,6 +137,7 @@ The API will be available at `http://127.0.0.1:8000`.
   "options": ["Option 1", "Option 2"]
 }
 ```
+**Note:** A poll must have a minimum of two options.
 
 ### 5. Get a specific poll
 
